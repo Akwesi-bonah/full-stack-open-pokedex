@@ -9,5 +9,9 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     steps:
-    -  name: say hello
-       run: echo "Hell world"
+      - name: say hello
+        run: echo "Hell world"
+      - name: Now it is
+        run: date
+      - name: Directory content
+        run: ls -l
